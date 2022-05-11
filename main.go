@@ -1,16 +1,15 @@
 package main
 
 import (
+	complexpb "example.com/protobuf-example-go/src/complex"
+	enumpb "example.com/protobuf-example-go/src/enum_example"
+	simplepb "example.com/protobuf-example-go/src/simple"
 	"fmt"
 	"io/ioutil"
 	"log"
 
-	"github.com/simplesteph/protobuf-example-go/src/complex"
-	"github.com/simplesteph/protobuf-example-go/src/enum_example"
-
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
-	"github.com/simplesteph/protobuf-example-go/src/simple"
 )
 
 func main() {

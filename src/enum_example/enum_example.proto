@@ -19,3 +19,4 @@ enum DayOfTheWeek {
   SATURDAY = 6;
   SUNDAY = 7;
 }
+
