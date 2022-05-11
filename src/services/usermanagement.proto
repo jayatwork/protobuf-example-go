@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package services;
+
+option go_package = "example.com/protobuf-example-go";
+
+service UserManagement {
+  rpc CreateNewUser (NewUser) returns (User) {}
+}
+
+message NewUser {
+  string  name = 1;
+  int32   age = 2;
+}
+
+message User {
+  string  name = 1;
+  int32   age = 2;
+  int32   id  =3;
+}
