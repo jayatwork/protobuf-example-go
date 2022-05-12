@@ -2,7 +2,7 @@ package protobuf_example_go
 
 import (
 	"context"
-	pb "example.com/protobuf-example-go"
+	pb "github.com/jayatwork/protobuf-example-go/src/services"
 	"google.golang.org/grpc"
 	"log"
 	"math/rand"
