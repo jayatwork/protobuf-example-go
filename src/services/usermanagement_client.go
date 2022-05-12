@@ -1,7 +1,7 @@
 package protobuf_example_go
 
 import (
-	pb ""
+	pb "github.com/jayatwork/protobuf-example-go/src/services"
 	"context"
 	"google.golang.org/grpc"
 	"log"
