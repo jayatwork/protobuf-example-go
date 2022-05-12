@@ -1,4 +1,4 @@
-package main
+package protobuf_example_go
 
 import (
 	"context"

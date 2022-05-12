@@ -1,8 +1,8 @@
-package main
+package protobuf_example_go
 
 import (
+	pb ""
 	"context"
-	pb "example.com/protobuf-example-go/src/services"
 	"google.golang.org/grpc"
 	"log"
 	"time"

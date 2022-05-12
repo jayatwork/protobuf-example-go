@@ -1,4 +1,4 @@
-module example.com/protobuf-example-go/src/services
+module example.com/protobuf-example-go
 
 go 1.18
 
